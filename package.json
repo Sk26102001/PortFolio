@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": ""
   },
   "dependencies": {
     "@shadcn/ui": "^0.0.4",
@@ -44,5 +45,6 @@
   "main": "eslint.config.js",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://Sk26102001.github.io/My-Portfolio"
 }
