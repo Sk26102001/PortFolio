@@ -28,7 +28,7 @@ function About() {
                                    viewport={{once: false, amount: 0.2 }}
           
           
-          src="/img-2622.png" alt="img"  className=' h-[40vh] justify-center items-center rounded-full   hover:bg-cyan-500 shadow-lg shadow-cyan-500/50 rotate-[-3deg]'/>
+                                   src={`${import.meta.env.BASE_URL}img-2622.png`} alt="My image"   className=' h-[40vh] justify-center items-center rounded-full   hover:bg-cyan-500 shadow-lg shadow-cyan-500/50 rotate-[-3deg]'/>
          </div>
 
       

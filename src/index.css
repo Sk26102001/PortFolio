@@ -1,10 +1,14 @@
+
+@import "tailwindcss";
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 @import 'bootstrap-icons/font/bootstrap-icons.css';
 
-@import "tailwindcss";
+
 
 main{
     margin: auto;
@@ -75,10 +79,6 @@ main{
         transform: translateX(1);
     }
 }
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 
   

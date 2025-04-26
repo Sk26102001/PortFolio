@@ -44,9 +44,9 @@ function Home() {
             
             
             
-            
-            src="/img.png" 
-            alt="img" 
+                         src={`${import.meta.env.BASE_URL}img.png`} alt="My image" 
+                       
+
             className="h-[45vh] justify-center items-center   rounded-full
             rotate-2    shadow-lg shadow-cyan-500  -mt-10" /> 
           </div>
