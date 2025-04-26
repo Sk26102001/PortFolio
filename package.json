@@ -47,7 +47,6 @@
   },
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
   "main": "eslint.config.js",
-  "homepage": "https://Sk26102001.github.io/My-Portfolio",
   "keywords": [],
   "author": "",
   "license": "ISC"
