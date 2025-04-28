@@ -25,16 +25,16 @@ function Navbar () {
             <li className='text-2xl md:text-3xl  py-2 px-6 hover:bg-white/60 border-transparent rounded-sm '>
                 <Link to="/Home"><FaHome  /></Link>
             </li>
-            <li className='text-2xl md:text-3xl  py-2 px-6 hover:bg-purple-400 border-transparent  rounded-sm '>
+            <li className='text-2xl md:text-3xl  py-2 px-6 hover:bg-white/60 border-transparent  rounded-sm '>
                 <Link to="/About"><IoPerson /></Link>
             </li>
-            <li className='text-2xl md:text-3xl  py-2 px-6 hover:bg-purple-400 border-transparent  rounded-sm'>
+            <li className='text-2xl md:text-3xl  py-2 px-6 hover:bg-white/60 border-transparent  rounded-sm'>
                 <Link to="/Skills"><PiHeadCircuitFill /></Link>
             </li>
-            <li className='text-2xl md:text-3xl  py-2 px-6  hover:bg-purple-400 border-transparent  rounded-sm'>
+            <li className='text-2xl md:text-3xl  py-2 px-6  hover:bg-white/60  border-transparent  rounded-sm'>
                 <Link to="/Project"><MdOutlineWork /></Link>
             </li>
-            <li className='text-2xl md:text-3xl  py-2 px-6 hover:bg-purple-400 border-transparent rounded-sm'>
+            <li className='text-2xl md:text-3xl  py-2 px-6 hover:bg-white/60 border-transparent rounded-sm'>
                 <Link to="/Contact"><MdContactMail /></Link>
             </li>
         </ul>
