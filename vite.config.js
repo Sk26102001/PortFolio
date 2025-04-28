@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 
 export default defineConfig({
-  base: '/My-Portfolio/', // important for GitHub Pages
+  base: '/PORTFOLIO/', // important for GitHub Pages
   build: {
     outDir: 'dist', // important for GitHub Pages
   },
