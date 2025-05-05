@@ -1,19 +1,35 @@
+// import { defineConfig } from 'vite'
+// import react from '@vitejs/plugin-react'
+// import tailwindcss from '@tailwindcss/vite'
+ 
+
+
+// export default defineConfig({
+//   base: '/Portfolio',
+
+//   build: {
+//     outDir: 'dist', // important for GitHub Pages
+//   },
+//   plugins: [
+    
+//     tailwindcss(),
+//     react()
+    
+//   ],
+  
+// });
+
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
+// Set base only for GitHub Pages
+const isGitHubPages = process.env.GITHUB_PAGES === 'true';
 
 export default defineConfig({
-  base: '/PORTFOLIO/', // important for GitHub Pages
+  base: isGitHubPages ? '/Portfolio/' : '/',
   build: {
-    outDir: 'dist', // important for GitHub Pages
+    outDir: 'dist',
   },
-  plugins: [
-    
-    tailwindcss(),
-    react()
-    
-  ],
-  
+  plugins: [tailwindcss(), react()],
 });
-
