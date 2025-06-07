@@ -20,21 +20,21 @@ function Navbar () {
                                        viewport={{once: false, amount: 0.2 }}
      className=' fixed bg-white/30 backdrop-blur-md top-0  shadow-lg z-50 border-transparent   mt-0 w-full h-[10vh] '>
 
-        <ul className=' flex flex-row justify-center items-center   py-3 gap-10  lg:gap-30 '>
+        <ul className=' flex flex-row justify-center items-center py-5  md:py-9 lg:py-4  gap-1   lg:gap-30 sm:gap-1 md:gap-20  text-3xl'>
 
-            <li className='text-2xl md:text-3xl  py-2 px-6 hover:bg-white/60 border-transparent rounded-sm '>
+            <li className='text-2xl md:text-5xl lg:text-5xl   px-6 hover:bg-white/60 border-transparent rounded-sm '>
                 <Link to="/Home"><FaHome  /></Link>
             </li>
-            <li className='text-2xl md:text-3xl  py-2 px-6 hover:bg-white/60 border-transparent  rounded-sm '>
+            <li className='text-2xl md:text-5xl lg:text-5xl   px-6 hover:bg-white/60 border-transparent  rounded-sm '>
                 <Link to="/About"><IoPerson /></Link>
             </li>
-            <li className='text-2xl md:text-3xl  py-2 px-6 hover:bg-white/60 border-transparent  rounded-sm'>
+            <li className='text-2xl md:text-5xl lg:text-5xl   px-6 hover:bg-white/60 border-transparent  rounded-sm'>
                 <Link to="/Skills"><PiHeadCircuitFill /></Link>
             </li>
-            <li className='text-2xl md:text-3xl  py-2 px-6  hover:bg-white/60  border-transparent  rounded-sm'>
+            <li className='text-2xl md:text-5xl lg:text-5xl   px-6  hover:bg-white/60  border-transparent  rounded-sm'>
                 <Link to="/Project"><MdOutlineWork /></Link>
             </li>
-            <li className='text-2xl md:text-3xl  py-2 px-6 hover:bg-white/60 border-transparent rounded-sm'>
+            <li className='text-2xl md:text-5xl lg:text-5xl   px-6 hover:bg-white/60 border-transparent rounded-sm'>
                 <Link to="/Contact"><MdContactMail /></Link>
             </li>
         </ul>
